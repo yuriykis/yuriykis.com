@@ -1,5 +1,8 @@
 name: Deploy to GitHub Pages
-on: [push]
+on: 
+  push:
+    branches:
+      - main
 env:
   GOOS: js
   GOARCH: wasm
@@ -20,7 +23,6 @@ jobs:
           go build -o public/app.wasm ./cmd/render
 
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4.4.3
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: gh-pages
           folder: public
