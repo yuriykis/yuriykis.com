@@ -12,19 +12,19 @@ func (p *CV) renderSkills() *vecty.HTML {
 		elem.UnorderedList(
 			&component.ListItem{
 				Prefix: "General:",
-				Title:  "Computer Science, Distibuted Systems, Blockchain Development, Cryptography",
+				Title:  "Computer Science, Distributed Systems, Orchestration, Blockchain Development, Cryptography",
 			},
 			&component.ListItem{
 				Prefix: "Programming:",
 				Title:  "Go, Python",
 			},
 			&component.ListItem{
-				Prefix: "Tech:",
-				Title:  "Protobuf, RPC, REST, Microservices",
+				Prefix: "Technologies:",
+				Title:  "Protobuf, RPC, REST, Microservices, SQL",
 			},
 			&component.ListItem{
-				Prefix: "OS:",
-				Title:  "GNU/Linux",
+				Prefix: "System Administration:",
+				Title:  "Docker, Kubernetes, Prometheus, Grafana, Linux",
 			},
 			&component.ListItem{
 				Prefix: "Business:",
