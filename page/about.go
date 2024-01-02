@@ -20,12 +20,12 @@ func (a *About) Render() vecty.ComponentOrHTML {
 			vecty.Markup(vecty.Class("main")),
 			elem.Heading1(
 				vecty.Text(
-					"Software and Systems Engineer, currently working at Luftansa Systems Poland.",
+					"Golang and Linux Engineer, working at Nord Security.",
 				),
 			),
 			elem.Heading1(
 				vecty.Text(
-					"My main interests are in distributed systems, software architecture and consensus algorithms.",
+					"My main interests are in cybersecurity, software architecture, distributed systems and consensus algorithms.",
 				),
 			),
 			elem.Heading1(
